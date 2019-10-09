@@ -1,0 +1,22 @@
+header{
+    color: #FFFFFF;
+    background: #2db34a;
+    padding: 1em;
+    width: 800px;
+    height: 200px;
+    display: flex;
+  /*   flex-direction: row-reverse; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.head{
+    border: 1px solid #FFFFFF;
+    padding: 1em;
+    text-align: center;
+}
+  
+h1{
+    margin: 0;  
+}
