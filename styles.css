@@ -2,13 +2,11 @@ header{
     color: #FFFFFF;
     background: #2db34a;
     padding: 1em;
-    width: 800px;
-    height: 200px;
-    display: flex;
-  /*   flex-direction: row-reverse; */
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
 }
   
 .head{
@@ -29,7 +27,9 @@ h1.jobtitle{
     display: grid;
     /*border: 2px blue solid;*/
     grid-template-columns: 20% 80%;
-    padding: 40px;
+    grid-template-rows: 15% 85%;
+    padding-left: 40px;
+    padding-left: 40px;
 }
 
 .left-section{
@@ -44,17 +44,83 @@ h1.jobtitle{
     height: 200px;
     width: 200px;
 }
+.item-1{
+    display: flex;
+}
+
+.item-2{
+    display: flex;
+}
 
 .contact-information img{
     height: 15px;
     width: 15px;
 }
 
+/* .contact-item{
+    display: flex;
+} */
+
+.contact-item div{
+    display: flex;
+}
+
 .social-media img{
     height: 15px;
     width: 15px;
+    display: inline-block;
+}
+
+.social-m{
+    display: flex;
+}
+
+
+#instagram{
+    display: inline-block;
 }
 
 .main-body{
     padding: 50px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.work-xp{
+    display: inline-block;
+}
+
+.year{
+    padding-right: 108px;
+}
+
+.years{
+    padding-right: 50px;
+}
+
+.education{
+    display: flex;
+}
+
+.year-wk{
+    padding-right: 135px;
+}
+
+.year-comc{
+    padding-right: 130px;
+}
+
+.year-uwi{
+    padding-right: 116px;
+}
+
+/* .skill-set{
+    display: flex;
+} */
+
+ul.skills-expert{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }

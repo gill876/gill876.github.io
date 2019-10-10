@@ -6,21 +6,23 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <header>
-    <div class="head">
-        <h1>Cargill Seiveright</h1>
-        <h1 class="jobtitle">Junior Software Developer</h1>
-    </div>
-    </header>
     <div class="grid">
+        <header>
+            <div class="head">
+                <h1>Cargill Seiveright</h1>
+                <h1 class="jobtitle">Junior Software Developer</h1>
+            </div>
+        </header>
         <div class="left-section"> <!--Sidebar containing social media links and contact information-->
             <div class="mypicture">
                 <img src="./img/profile.jpeg" alt="">
             </div>
             <div class="contact-information">
                 <h4>Contact</h4>
-                <img src="./img/phone.png">
-                <p>+1(876)865-9559</p>
+                <div class="contact-item">
+                    <img src="./img/phone.png">
+                    <p>+1(876)865-9559</p>
+                </div>
                 <img src="./img/email.svg">
                 <p>microcargill@hotmail.com</p>
                 <img src="./img/website.png">
@@ -29,16 +31,26 @@
             <hr>
             <div class="social-media">
                 <h4>Social Media</h4>
-                <img src="./img/facebook.png">
-                <p>facebook.com/coolgill12</p>
-                <img src="./img/instagram.png">
-                <p>instagram.com/coolgill12/</p>
-                <img src="./img/twitter.png">
-                <p>twitter.com/coolgill12</p>
-                <img src="./img/linkedin.png">
-                <p>linkedin.com/in/cargill-s-a074b3125</p>
-                <img src="./img/github.png">
-                <p>https://github.com/gill876</p>
+                <div class="social-m">
+                    <img src="./img/facebook.png">
+                    <p>facebook.com/coolgill12</p>
+                </div>
+                <div class="social-m">
+                    <img id="instagram" src="./img/instagram.png">
+                    <p id="instagram">instagram.com/coolgill12/</p>
+                </div>
+                <div class="social-m">
+                    <img src="./img/twitter.png">
+                    <p>twitter.com/coolgill12</p>
+                </div>
+                <div class="social-m">
+                    <img src="./img/linkedin.png">
+                    <p>linkedin.com/in/cargill-s-a074b3125</p>
+                </div>
+                <div class="social-m">
+                    <img src="./img/github.png">
+                    <p>https://github.com/gill876</p>
+                </div>
             </div>
         </div>
         <div class="main-body">
@@ -59,80 +71,92 @@
                             different environments and people.</p>
                 </article>
             </div>
+            <hr>
             <div class="work-experience">
                 <h2>work experience</h2>
                 <article> <!--Work experiences with the years and the description-->
-                    <div class="years">
-                        <p>July 8 - 26, 2019</p> <!--The amount of years for the work experience-->
-                    </div>
-                    <div class="positions">
-                        <h5 class="titles">Heart Trust National Training Agency HOPE Summer Work Programme at
-                                Courts Falmouth Ltd.
-                        </h5> <!--Title of the work experience-->
-                        <p> Making calls and texting company promotions to
-                                customers. Assisting and directing customers of items in store. Assisting Sales
-                                Representatives.
-                        </p> <!--The description of the work experience-->
+                    <div class="item-1">
+                        <div class="year">
+                            <p>July 8 - 26, 2019</p> <!--The amount of years for the work experience-->
+                        </div>
+                        <div class="positions">
+                            <h5 class="titles">Heart Trust National Training Agency HOPE Summer Work Programme at
+                                    Courts Falmouth Ltd.
+                            </h5> <!--Title of the work experience-->
+                            <p> Making calls and texting company promotions to
+                                    customers. Assisting and directing customers of items in store. Assisting Sales
+                                    Representatives.
+                            </p> <!--The description of the work experience-->
+                        </div>
                     </div>
                 </article>
                 <article> <!--Work experiences with the years and the description-->
-                    <div class="years">
-                        <p>40 hours, December 2017</p> <!--The amount of years for the work experience-->
-                    </div>
-                    <div class="positions">
-                        <h5 class="titles">Dewar Health Centre (Assistant Desk Personnel)</h5> <!--Title of the work experience-->
-                        <p>Creating, retrieving and sorting medical records. Making appointments and index cards.</p> <!--The description of the work experience-->
+                    <div class="item-2">
+                        <div class="years">
+                            <p>40 hours, December 2017</p> <!--The amount of years for the work experience-->
+                        </div>
+                        <div class="positions">
+                            <h5 class="titles">Dewar Health Centre (Assistant Desk Personnel)</h5> <!--Title of the work experience-->
+                            <p>Creating, retrieving and sorting medical records. Making appointments and index cards.</p> <!--The description of the work experience-->
+                        </div>
                     </div>
                 </article>
             </div>
-            <div class="education"> 
+            <hr>
+            <div class="education-items"> 
                 <h2>education</h2>
                 <article> <!--Education history with years, certification and school -->
-                    <div>
-                        <p>2011 - 2016</p> <!--The amount of years spent/spending at the school-->
-                    </div>
-                    <div>
-                        <h5>IGSCE First Language English 2015. B</h5> <!--The certification from the school-->
-                        <h5>CXC CSEC Certificate 2016. Nine I’s, Two II’s</h5>
-                    </div>
-                    <div>
-                        <p>William Knibb Memorial High School</p> <!--The school attended/attending-->
-                    </div>
-                </article>
-                <article> <!--Education history with years, certification and school -->
-                    <div>
-                        <p>2016 - 2018</p> <!--The amount of years spent/spending at the school-->
-                    </div>
-                    <div>
-                        <h5>CXC CAPE Certificate 2017. One I, Two II’s, One III</h5> <!--The certification from the school-->
-                        <h5>CXC CAPE Certificate 2018. Three I’s, One II</h5>
-                    </div>
-                    <div>
-                        <p>Brown’s Town Community College</p> <!--The school attended/attending-->
+                    <div class="education">
+                        <div class="year-wk">
+                            <p>2011 - 2016</p> <!--The amount of years spent/spending at the school-->
+                        </div>
+                        <div>
+                            <h5>IGSCE First Language English 2015. B</h5> <!--The certification from the school-->
+                            <h5>CXC CSEC Certificate 2016. Nine I’s, Two II’s</h5>
+                            <p>William Knibb Memorial High School</p> <!--The school attended/attending-->
+                        </div>
                     </div>
                 </article>
                 <article> <!--Education history with years, certification and school -->
-                    <div>
-                        <p>2018 - present</p> <!--The amount of years spent/spending at the school-->
+                    <div class="education">
+                        <div class="year-comc">
+                            <p>2016 - 2018</p> <!--The amount of years spent/spending at the school-->
+                        </div>
+                        <div>
+                            <h5>CXC CAPE Certificate 2017. One I, Two II’s, One III</h5> <!--The certification from the school-->
+                            <h5>CXC CAPE Certificate 2018. Three I’s, One II</h5>
+                            <p>Brown’s Town Community College</p> <!--The school attended/attending-->
+                        </div>
                     </div>
-                    <div>
-                        <h5>BSc. Major in Computer Science.</h5> <!--The certification from the school-->
-                    </div>
-                    <div>
-                        <p>University of the West Indies</p> <!--The school attended/attending-->
+                </article>
+                <article> <!--Education history with years, certification and school -->
+                    <div class="education">
+                        <div class="year-uwi">
+                            <p>2018 - present</p> <!--The amount of years spent/spending at the school-->
+                        </div>
+                        <div>
+                            <h5>BSc. Major in Computer Science.</h5> <!--The certification from the school-->
+                            <p>University of the West Indies</p> <!--The school attended/attending-->
+                        </div>
                     </div>
                 </article>
             </div>
+            <hr>
             <div class="skills-expert">
                 <h2>skills/expertise</h2>
                 <ul>
-                    <li>Excellent Communication Skills</li>
-                    <li>Fast Learning and the Affinity to Learn</li>
-                    <li>Creative Photographic Skills</li>
-                    <li>Well Knowledgeable with Microsoft Office Suite</li>
-                    <li>Experience with Linux Environment and Command Line</li>
-                    <li>Beginner in Japanese (Working on competent literacy)</li>
-                    <li>Beginner in Spanish (Working on competent literacy)</li>
+                    <div class="skill-set">
+                        <li>Excellent Communication Skills</li>
+                        <li>Fast Learning and the Affinity to Learn</li>
+                        <li>Creative Photographic Skills</li>
+                        <li>Ropust, Consistent, Ethical and Courteous</li>
+                    </div>
+                    <div class="skill-set">
+                        <li>Knowledgeable with Microsoft Office Suite</li>
+                        <li>Experience with Linux Environment and Command Line</li>
+                        <li>Beginner in Japanese (Working on competent literacy)</li>
+                        <li>Beginner in Spanish (Working on competent literacy)</li>
+                    </div>
                 </ul>
             </div>
         </div>
