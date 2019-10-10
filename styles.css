@@ -38,7 +38,7 @@ h1.jobtitle{
 }
 
 .left-section{
-    background-color: #c9eee5;
+    background-color:#fcf6f7;
     border: 2px #288961 solid;
     border-radius: 7px;
     padding: 20px;
@@ -58,26 +58,37 @@ h1.jobtitle{
 }
 
 .contact-information img{
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
+    padding-right: 1em;
+}
+
+.contact-information{
+    padding-bottom: 1.7em;
 }
 
 /* .contact-item{
     display: flex;
 } */
 
-.contact-item div{
+.contact-item{
     display: flex;
 }
 
 .social-media img{
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     display: inline-block;
+    padding-right: 7px;
+}
+
+.social-media{
+    padding-top: 0.5em;
 }
 
 .social-m{
     display: flex;
+    padding-top: 1em;
 }
 
 
@@ -87,6 +98,7 @@ h1.jobtitle{
 
 .main-body{
     padding: 50px;
+    background-color: #c9eee5;
 }
 
 h2{
@@ -98,7 +110,7 @@ h2{
 }
 
 .year{
-    padding-right: 108px;
+    padding-right: 152px;
 }
 
 .years{
@@ -110,15 +122,15 @@ h2{
 }
 
 .year-wk{
-    padding-right: 135px;
+    padding-right: 170px;
 }
 
 .year-comc{
-    padding-right: 130px;
+    padding-right: 165px;
 }
 
 .year-uwi{
-    padding-right: 116px;
+    padding-right: 137px;
 }
 
 /* .skill-set{
@@ -130,6 +142,10 @@ ul.skills-expert{
     grid-template-columns: 50% 50%;
 }
 
-/* .skill-set{
-    grid-template-columns: 
-} */
+.skill-set{
+    padding-right: 1.7em;
+}
+
+.skills-list{
+    display: flex;
+}
