@@ -20,3 +20,41 @@ header{
 h1{
     margin: 0;  
 }
+
+h1.jobtitle{
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    /*border: 2px blue solid;*/
+    grid-template-columns: 20% 80%;
+    padding: 40px;
+}
+
+.left-section{
+    background-color: #c9eee5;
+    border: 2px #288961 solid;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.mypicture img{
+    border-radius: 90px;
+    height: 200px;
+    width: 200px;
+}
+
+.contact-information img{
+    height: 15px;
+    width: 15px;
+}
+
+.social-media img{
+    height: 15px;
+    width: 15px;
+}
+
+.main-body{
+    padding: 50px;
+}
