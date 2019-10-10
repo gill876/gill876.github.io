@@ -1,16 +1,21 @@
+html{
+    font-family: 'Hepta Slab', serif;
+}
+
 header{
     color: #FFFFFF;
     background: #2db34a;
-    padding: 1em;
-    justify-content: center;
-    align-items: center;
     grid-column-start: 1;
     grid-column-end: 3;
-
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
   
 .head{
-    border: 1px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
     padding: 1em;
     text-align: center;
 }
@@ -124,3 +129,7 @@ ul.skills-expert{
     display: grid;
     grid-template-columns: 50% 50%;
 }
+
+/* .skill-set{
+    grid-template-columns: 
+} */
